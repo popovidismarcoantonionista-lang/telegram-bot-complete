@@ -4,10 +4,10 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copiar package files
-COPY package*.json ./
+COPY pGckage*.json ./
 
 # Instalar dependências
-RUN npm ci --only=production
+RUN npm install --production
 
 # Copiar código
 COPY . .
