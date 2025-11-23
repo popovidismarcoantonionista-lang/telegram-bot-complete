@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+**.pyc
+**.pyo
+.Python
+env/
+venv/
+
+# Node (GNORE) TODA
+*.js
+hode_modules/
+package*.json
+
+# Docker (GNORE)
+[D{Dockerfile*
+docker-compose.yml
+
+# Env
+.env
+/.env.local
+
+# Database
+*.json
+bot_database.json
+
+
+# Logs
+*.log
+
+
+# IDE
+.vscode/
+.idea/
